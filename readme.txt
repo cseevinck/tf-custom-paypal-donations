@@ -7,7 +7,7 @@ Author URI:        http://www.chs-webs.com
 Author:            Corky Seevinck
 Donate link:       
 Requires at least: 3.0
-Tested up to:      4.7.2
+Tested up to:      5.6
 Stable tag:        1.2.6
 Version:           1.2.6
 License: 		       GPLv2 or later
