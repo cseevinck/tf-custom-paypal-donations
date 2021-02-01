@@ -1,0 +1,80 @@
+/* CSS for the front end view */
+
+.cusdon-instructions h2 {
+	padding-bottom: 30px;
+	font-size: 17px;
+}
+
+.cusdon-instructions,
+.cusdon-instructions li,
+.cusdon-instructions p {
+	font-size: 14px;
+}
+
+.cusdon-donations-form {
+	display:inline-block;
+	vertical-align:top;
+	margin: 40px;
+}
+
+.cusdon-second-form-hide {
+	position: absolute;
+	left: -1000px;
+	top: 0;
+	width: 100px;
+	background-color: red;
+}
+
+.cusdon-donations-form table tr {
+	height: 25px;
+}
+
+.cusdon-donations-form tr td {
+	border-top: 0px! important;
+}
+
+.cusdon-donations-form input.cdf-submit {
+	margin: 20px 0;
+}
+
+.cusdon-donations-form h2 {
+	font-size: 26px;
+}
+
+.cusdon-donations-form table {
+	margin: 0;
+	border: 0! important;
+}
+
+.cusdon-field {
+	border: 1px solid #333! important;
+	background-color:#eee ! important;
+	padding: 15px! important;
+	font-size: 15px! important;
+	width: 100%! important;
+}
+
+.cusdon-submit {
+	background-color: unset! important;
+	border: unset! important;
+	width: unset ! important;
+}
+
+.cusdon-hide {
+	visibility: hidden;
+}
+
+.cusdon-admin input.wide, input.wide {
+    width: 500px;
+}
+
+.cusdon-wait-hdr {
+		padding: 30px 0 5px;
+		font-size: 25px;
+}
+
+.cusdon-wait-gif {
+		margin-bottom: 1000px;
+		width: 120px;
+		height: 120px;
+}
