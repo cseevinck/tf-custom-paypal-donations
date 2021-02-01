@@ -1,10 +1,11 @@
 <?php
 if ( ! defined( 'ABSPATH' ) ) exit; 
 
-/*
-Plugin Name: TF Custom Paypal Donations
-Description: A plugin to accept Paypal donations with giving details emailed to an admin email account - shortcode: [tf-custom-paypal-donations]
-Version: 1.2.5 - TF-Sandy Jan 31, 2021 
+/** 
+* Plugin Name: TF Custom Paypal Donations
+* Description: A plugin to accept Paypal donations with giving details emailed to 
+* admin email account - shortcode: [tf-custom-paypal-donations]
+* Version: 1.2.5 - Jan 31, 2021 
 */
 
 add_shortcode('tf-custom-paypal-donations', 'cusdon_donations');
