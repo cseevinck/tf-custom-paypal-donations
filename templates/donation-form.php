@@ -12,8 +12,9 @@ $admin_post_url = esc_url( admin_url("admin-post.php"));
      orphan email which could be used to reach out to the user to offer help.
 -->
 
-<!-- Display user instructions on how donations are done (replace cr/nl with <br>) -->   
-<div class="cusdon-instructions"><?php echo nl2br($options['cusdon_how_to']); ?></div>
+<!-- Display list of ministries to donate to (replace cr/nl with <br>) -->  
+<h2 class="cusdon_give_to_h2">Ministries you can donate to:</h2> 
+<div class="cusdon_give_to_div"><?php echo nl2br($options['cusdon_give_to']); ?></div>
 
 <form method="POST" action="" class='cusdon-donations-form donation-form'>
     <input name="cusdon-submit" type="hidden" value="Submit" />

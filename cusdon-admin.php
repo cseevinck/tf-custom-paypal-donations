@@ -26,9 +26,9 @@ function cusdon_settings_init(  ) {
 	);
 
 	add_settings_field( 
-		'cusdon_how_to', 
-		__( 'How To Instructions', 'wordpress' ), 
-		'cusdon_how_to_render', 
+		'cusdon_give_to', 
+		__( 'Possible Donations List', 'wordpress' ), 
+		'cusdon_give_to_render', 
 		'cusdon_pluginPage', 
 		'cusdon_pluginPage_section' 
 	);
@@ -86,12 +86,12 @@ function cusdon_settings_init(  ) {
 	);
 }
 
-function cusdon_how_to_render(  ) { 
+function cusdon_give_to_render(  ) { 
 
 	$options = get_option( 'cusdon_settings' );
 	?>
-	<textarea name='cusdon_settings[cusdon_how_to]' rows="10" cols="70" maxlength="1000" class='wide' required><?php if(isset($options['cusdon_how_to']))
-	{echo $options['cusdon_how_to'];} ?></textarea>
+	<textarea name='cusdon_settings[cusdon_give_to]' rows="10" cols="70" maxlength="1000" class='wide' required><?php if(isset($options['cusdon_give_to']))
+	{echo $options['cusdon_give_to'];} ?></textarea>
 	<?php
 }
 
