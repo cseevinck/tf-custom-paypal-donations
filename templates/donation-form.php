@@ -31,12 +31,12 @@ $admin_post_url = esc_url( admin_url("admin-post.php"));
     <table>
       <tr>
         <td>
-          <input type="text" name="donor_name" class="cusdon-field" maxlength="200" placeholder= "Name" required>
+          <input type="text" name="donor_name" class="cusdon-field" maxlength="200" placeholder= "Your Name" required>
         </td>
       </tr>
       <tr>
         <td>
-          <input type="email" name="email_address" class="cusdon-field" maxlength="200"  placeholder= "Email Address" required>
+          <input type="email" name="email_address" class="cusdon-field" maxlength="200"  placeholder= "Your Email Address" required>
         </td>
       </tr>
       <tr>
