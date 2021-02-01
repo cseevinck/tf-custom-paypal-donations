@@ -12,8 +12,8 @@ $admin_post_url = esc_url( admin_url("admin-post.php"));
      orphan email which could be used to reach out to the user to offer help.
 -->
 
-<!-- Display user instructions on how donations are done -->    
-<div class="cusdon-instructions"><?php echo $options['cusdon_how_to']; ?></div>
+<!-- Display user instructions on how donations are done (replace cr/nl with <br>) -->   
+<div class="cusdon-instructions"><?php echo nl2br($options['cusdon_how_to']); ?></div>
 
 <form method="POST" action="" class='cusdon-donations-form donation-form'>
     <input name="cusdon-submit" type="hidden" value="Submit" />
@@ -47,9 +47,7 @@ $admin_post_url = esc_url( admin_url("admin-post.php"));
       <tr>
         <td>
           <!-- now the submit button -->
-           <input type="image" src="<?php echo $options['cusdon_donate_image']; ?>" class='cusdon-submit' name="cusdon-submit" alt="PayPal - The safer, easier way to pay online!" >
-
-		      <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+           <input type="image" src="<?php echo $options['cusdon_donate_image']; ?>"  alt="PayPal - The safer, easier way to pay online!" >
         </td>
       </tr>
     </table>

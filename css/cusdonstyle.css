@@ -17,7 +17,7 @@
 	margin: 40px;
 }
 
-.cusdon-second-form-hide {
+.cusdon-second-form-hide { /* move form off the screen*/ 
 	position: absolute;
 	left: -1000px;
 	top: 0;
@@ -31,10 +31,6 @@
 
 .cusdon-donations-form tr td {
 	border-top: 0px! important;
-}
-
-.cusdon-donations-form input.cdf-submit {
-	margin: 20px 0;
 }
 
 .cusdon-donations-form h2 {
@@ -52,12 +48,6 @@
 	padding: 15px! important;
 	font-size: 15px! important;
 	width: 100%! important;
-}
-
-.cusdon-submit {
-	background-color: unset! important;
-	border: unset! important;
-	width: unset ! important;
 }
 
 .cusdon-hide {
