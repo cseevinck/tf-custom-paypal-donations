@@ -13,8 +13,8 @@ $admin_post_url = esc_url( admin_url("admin-post.php"));
 -->
 
 <!-- Display list of ministries to donate to (replace cr/nl with <br>) -->  
-<h2 class="cusdon_give_to_h2">Ministries you can donate to:</h2> 
-<div class="cusdon_give_to_div"><?php echo nl2br($options['cusdon_give_to']); ?></div>
+<h2 class="cusdon-give-to-h2">Ministries you can donate to:</h2> 
+<div class="cusdon-give-to-div"><?php echo nl2br($options['cusdon_give_to']); ?></div>
 
 <form method="POST" action="" class='cusdon-donations-form donation-form'>
     <input name="cusdon-submit" type="hidden" value="Submit" />
